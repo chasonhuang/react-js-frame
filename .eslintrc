@@ -1,0 +1,15 @@
+{
+  "extends": "airbnb",
+  "rules": {
+    "comma-dangle": ["error", "never"],
+    "linebreak-style": [0, "error", "windows"],
+    "quotes": [1, "double"],
+    "global-require": 0,
+    "class-methods-use-this": "off",
+    "prefer-template": "off"
+  },
+  "env": {
+    "browser": true,
+    "node": true
+  }
+}

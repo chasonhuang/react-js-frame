@@ -1,0 +1,10 @@
+{
+  "presets": ["es2015", "react"],
+  // 开发的时候才启用HMR和catch error
+  // "env": {
+  //   "development": {
+  //     "presets": ["react-hmre"]
+  //   }
+  // }
+  // "plugins": ["react-hot-loader/babel"]
+}
