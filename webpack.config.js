@@ -1,5 +1,4 @@
 var path = require("path");
-var webpack = require("webpack");
 var HtmlWebpackPlugin = require("html-webpack-plugin");
 
 // 一些常用路径
@@ -19,6 +18,8 @@ module.exports = {
   devtool: "eval-source-map",
   // 开启webpack dev server
   devServer: {
+    host: "localhost",
+    port: 8001,
     historyApiFallback: true,
     hot: true,
     inline: true,

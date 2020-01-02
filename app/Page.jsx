@@ -9,7 +9,7 @@ class Page extends React.Component {
     return (
       <div>
         <button type="submit" onClick={this.show()}>
-          Hello React!123
+          Hello React!1231
         </button>
       </div>
     );
